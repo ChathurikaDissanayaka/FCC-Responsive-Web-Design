@@ -1,4 +1,4 @@
-# FCC-Responsive-Web-Design # fcc-Responsive-Web-Design
+# FCC-Responsive-Web-Design 
 
 I have completed Responsive Web Design certification in FreeCodeCamp. This certification consists of some course modules covering the various topics on responsive web design. And at the end of the course, you have to do five projects to get the certificate of completion.
 
