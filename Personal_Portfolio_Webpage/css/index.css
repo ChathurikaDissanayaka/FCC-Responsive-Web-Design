@@ -1,0 +1,157 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    position: fixed; 
+    overflow: auto;
+    width: 100%;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 18px;
+    background-color: #5921DB;
+}
+
+nav ul a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #5921DB;
+    border:#5921DB 1px solid;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul a:hover{
+    background-color:blueviolet;
+}
+
+#welcome-section{
+    text-align: center;
+    background-image: linear-gradient(45deg, #E507FA, #306BF2 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+}
+
+#welcome-section h2{
+    font-size: 70px;
+    color: #21C7DB;
+    font-family: 'Caveat', cursive;
+}
+
+#projects{
+    text-align: center;
+    margin: 0px;
+    background-color: #21C7DB;
+    padding: 50px;
+}
+
+#projects h2, #contact h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#projects h2{
+    color: black;
+}
+
+#projects h3{
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+img{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+#contact{
+    padding:20px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#contact h2{
+    color: #21C7DB;
+    font-family: 'Caveat', cursive;
+}
+
+#contact a{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px){ 
+    h1{
+        font-size: 20px;
+    }
+    
+    #welcome-section h2{
+        font-size: 15px;
+    }
+    nav ul{
+        padding: 6px;
+    }
+    
+    nav ul a{
+        text-decoration: none;
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border:#5921DB 1px solid;
+        font-size: 15px;
+    }
+    img{
+        height: 50%;
+        width: 50%;
+    }
+    #welcome-section{
+        height: 500px;
+        width: 100%;
+    }
+    #contact h2, #projects h2{
+        font-size: 20px;
+    }
+
+    #projects h3{
+        font-size: 15px;
+    }
+
+    a{
+        font-size: 15px;
+    }
+
+    #contact img{
+        padding: 3px;
+        height: 40px;
+        width: 40px;
+    }
+
+}

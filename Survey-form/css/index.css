@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background: linear-gradient(45deg, #5921DB, #E507FA);
+    color: white;
+    font-family: 'Mate SC', serif;
+    text-shadow: 3px 3px 10px #BC53FD;
+}
+
+[type=number] {
+    width: 150px;
+  }
+
+h1,p{
+    font-weight: bold;
+}
+
+
+input[type=text], [type=email],[type=number]{
+    font-family: 'Mate SC', serif;
+    color: #5921DB;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin: 4px 2px;
+    padding: 16px 32px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+select {
+    font-family: 'Mate SC', serif;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 10px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+
+textarea {
+    font-family: 'Mate SC', serif;
+    width: 300px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: #5921DB;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+
+button{
+    background-color :#BC53FD;
+    color: white;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #cbced1, -1px -1px 1px white;
+}
+
+button:hover{
+    box-shadow: none;
+}

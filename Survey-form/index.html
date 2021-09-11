@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Survey-form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to fill our survey form</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name:</label><br>
+        <input type="text" placeholder="Enter your name..." id="name" name="name" required>
+
+        <br><br>
+
+        <label id="email-label" for= "email">Email:</label><br>
+        <input type="email" placeholder="Enter your email..." id="email" name="email" required>
+
+        <br><br>
+
+        <label id="number-label" for="number">Number:</label><br>
+        <input type="number" placeholder="Enter your number..." id="number" name="number" min="1" max="5">
+
+        <br><br>
+
+        <label for="fruit">Choose a fruit:</label><br>
+        <select name="fruit" id="dropdown">
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+        <option value="mango">Mango</option>
+        </select>
+
+        <br><br>
+
+        <label for="male"> 
+            <input id="male" type="radio" name="gender" value="male">Male 
+        </label>
+        <label for="Female"> 
+            <input id="Female" type="radio" name="gender" value="Female">Female 
+        </label>
+        <label for="Other"> 
+            <input id="Other" type="radio" name="gender" value="Other">Other
+        </label>
+
+        <br><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+
+        <br><br>
+
+        <label for="txt">Additional comments:</label><br>
+        <textarea id="txt" name="txt" rows="4" cols="50">
+        </textarea>
+
+        <br><br>
+
+        <button id="submit" type="submit" name="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>

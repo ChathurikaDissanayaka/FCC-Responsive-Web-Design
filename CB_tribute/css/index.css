@@ -1,0 +1,99 @@
+body{
+    background-color: #00303D;
+    color: floralwhite;
+}
+
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p{
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img{
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    height: auto;
+}
+
+figcaption{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #60BFA4;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#brief{
+    font-size: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10px;
+    width: 40%;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#right{
+    text-align: right;
+}
+
+#descriptive{
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+footer{
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #6FA0A6;
+}
+
+a:hover{
+    color: #60BFA4;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    footer,figcaption{
+        font-size: 10px;
+    }
+    #brief, #descriptive{
+        font-size: 12px;
+    }
+}

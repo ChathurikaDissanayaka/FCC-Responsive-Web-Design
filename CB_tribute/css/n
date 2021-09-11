@@ -1,0 +1,89 @@
+
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            <div id="d1">
+                <p>Name:</p>
+            </div>
+            <div id="d2">
+                <p>Chester Charles Bennington</p>
+            </div>
+            <div id="d3">
+                <p>Born:</p>
+            </div>
+            <div id="d4">
+                <p>March 20, 1976<br>
+                    Phoenix, Arizona, U.S.
+                </p>
+            </div>
+            <div id="d5">
+                <p>Died:</p>
+            </div>
+            <div id="d6">
+                <p>July 20, 2017 (aged 41)<br>
+                    Palos Verdes Estates, California, U.S.
+                </p>
+            </div>
+            <div id="d7">
+                <p>Occupation:</p>
+            </div>
+            <div id="d8">
+                <p>Singer, songwriter, actor</p>
+            </div>
+            <div id="d9">
+                <p>Years active:</p>
+            </div>
+            <div id="d10">
+                <p>1992–2017</p>
+            </div>
+            <div id="d11">
+                <p>Genres:</p>
+            </div>
+            <div id="d12">
+                <p>Alternative, metal, nu metal, hard rock,
+                    alternative rock, electronic rock, heavy metal,
+                    post-grunge, pop rock
+                </p>
+            </div>
+            <div id="d13">
+                <p>Instruments:</p>
+            </div>
+            <div id="d14">
+                <p>Vocals</p>
+            </div>
+            <div id="d15">
+                <p>Associated acts:</p>
+            </div>
+            <div id="d16">
+                <p>Linkin Park, Dead by Sunrise, Julien-K,
+                    Grey Daze, Kings of Chaos, Stone Temple Pilots
+                </p>
+            </div>
+
+            display: grid;
+    grid-template-columns: 200px 500px;
+    grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-column-gap: 50px;
+
+    #d1, #d3, #d5, #d7, #d9, #d11, #d13, #d15 {
+    display: grid;
+    justify-items:self-end;
+}
